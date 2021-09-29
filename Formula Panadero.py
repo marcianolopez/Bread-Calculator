@@ -58,16 +58,16 @@ def cerrar():
 botoncerrar=Button(raiz, text='Cerrar', command=cerrar)
 botoncerrar.pack(side=TOP)
 
-harinalabel=Label(miframe, text='Harina (en gramos):', font=30, bg='light green')
+harinalabel=Label(miframe, text='Flour (in grams):', font=30, bg='light green')
 harinalabel.grid(row=1, column=0, sticky='W', padx=10, pady=10)
 
-agualabel=Label(miframe, text='Agua ml:', font=30, bg='light green', textvariable=calculoagua)
+agualabel=Label(miframe, text='Water ml:', font=30, bg='light green', textvariable=calculoagua)
 agualabel.grid(row=2, column=0, sticky='W', padx=10, pady=10)
 
-levaduralabel=Label(miframe, text='Levadura (en gramos):', font=30, bg='light green', textvariable=calculolevadura)
+levaduralabel=Label(miframe, text='Yeast (in grams):', font=30, bg='light green', textvariable=calculolevadura)
 levaduralabel.grid(row=3, column=0, sticky='W', padx=10, pady=10)
 
-sallabel=Label(miframe, text='Sal (en gramos):', font=30, bg='light green', textvariable=calculosal)
+sallabel=Label(miframe, text='Salt (in grams):', font=30, bg='light green', textvariable=calculosal)
 sallabel.grid(row=4, column=0, sticky='W', padx=10, pady=10)
 
 
