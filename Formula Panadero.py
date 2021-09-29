@@ -61,7 +61,7 @@ botoncerrar.pack(side=TOP)
 harinalabel=Label(miframe, text='Flour (in grams):', font=30, bg='light green')
 harinalabel.grid(row=1, column=0, sticky='W', padx=10, pady=10)
 
-agualabel=Label(miframe, text='Water ml:', font=30, bg='light green', textvariable=calculoagua)
+agualabel=Label(miframe, text='Water (ml):', font=30, bg='light green', textvariable=calculoagua)
 agualabel.grid(row=2, column=0, sticky='W', padx=10, pady=10)
 
 levaduralabel=Label(miframe, text='Yeast (in grams):', font=30, bg='light green', textvariable=calculolevadura)
